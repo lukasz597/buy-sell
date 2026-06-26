@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add docs/signal.html
+          git add signal.html
           git commit -m "update signal" || echo "no changes"
           git push
