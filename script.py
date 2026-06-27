@@ -51,8 +51,8 @@ def save_html(date, close, sma20, sma200, signal):
     <head>
         <title>CNDX Signal</title>
         <style>
-            body {{ font-family: Arial; margin: 40px; }}
-            .box {{ padding: 20px; border: 1px solid #ccc; width: 450px; }}
+            body {{ font-family: Arial; margin: 20px; }}
+            # .box {{ padding: 20px; border: 1px solid #ccc; width: 450px; }}
         </style>
     </head>
     <body>
