@@ -82,8 +82,8 @@ def main():
     data = add_sma(data)
 
     # 🔥 KLUCZ: usuwamy dzisiejszy dzień (niezamknięta świeca)
-    today = pd.Timestamp.today().normalize()
-    data = data[data.index < today]
+    # today = pd.Timestamp.today().normalize()
+    # data = data[data.index < today]
 
     data = data.dropna()
 
